@@ -40,13 +40,18 @@
 
 ### 方式一：从 GitHub 安装（推荐）
 ```bash
-git clone https://github.com/<你的用户名>/web3-wabcd-identifier.git
+git clone https://github.com/63619990/web3-wabcd-identifier.git
 cp -r web3-wabcd-identifier/wabcd-identifier ~/.workbuddy/skills/
 ```
 重启 WorkBuddy 后，对话中只要出现"这个项目算真 Web3 吗""是不是资金盘"等信号即可自动激活。
 
-### 方式二：从 WorkBuddy 技能市场安装
-> 市场发布后在此填写一键安装命令 / 链接。
+### 方式二：上架 SkillHub / ClawHub 技能市场（供其他用户一键安装）
+本技能已发布到公开 GitHub 仓库。SkillHub（lightmake.site）与 ClawHub 会从公开 GitHub 仓库自动同步，上架步骤：
+1. 登录 [ClawHub](https://clawhub.ai)（或对应发布后台）。
+2. 关联你的 GitHub 账号，添加本仓库 `63619990/web3-wabcd-identifier`。
+3. 提交同步后，即可在 SkillHub 搜索 `wabcd-identifier` 一键安装。
+
+> 注：WorkBuddy 内置推荐市场（BuiltinMarket）为平台策展，不对普通用户开放自助发布接口；**公开 GitHub 仓库 + ClawHub 同步**是面向社区分发的最佳路径。你也可以直接把本仓库分享给朋友，按方式一/方式三安装。
 
 ### 方式三：手动安装
 把本仓库的 `wabcd-identifier/` 目录整体复制到用户目录下的 `.workbuddy/skills/` 即可（Windows 为 `%USERPROFILE%\.workbuddy\skills\`）。
